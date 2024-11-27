@@ -1,0 +1,49 @@
+# Java specific ignores
+*.class               # Compiled bytecode files
+*.jar                 # JAR files
+*.war                 # WAR files
+*.ear                 # EAR files
+*.nar                 # NAR files
+*.swp                 # Swap files from editors
+*.log                 # Log files
+*.tmp                 # Temporary files
+
+# Eclipse IDE
+.project
+.classpath
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# NetBeans IDE
+nbproject/private/
+build/
+dist/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Maven
+target/               # Maven build directory
+*.log                 # Maven logs
+
+# Gradle
+.gradle/              # Gradle build directory
+build/                # Gradle build output
+
+# OS generated files
+.DS_Store             # macOS specific
+Thumbs.db             # Windows specific
+
+# Logs
+logs/                 # Log directory (if you don't want to commit logs)
+*.log
+
+# Project-specific files
+logs/server.log       # Example: if you don't want to commit the log file
